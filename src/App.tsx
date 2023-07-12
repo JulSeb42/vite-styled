@@ -2,8 +2,7 @@
 
 import { useContext } from "react"
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import { ThemeProvider } from "styled-components/macro"
-import { ThemeContext } from "tsx-library-julseb"
+import { ThemeContext, ThemeProvider } from "tsx-library-julseb"
 import type { ThemeContextProps } from "tsx-library-julseb/types"
 
 import { routes } from "routes"
